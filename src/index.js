@@ -1,0 +1,8 @@
+import './scss/index.scss'
+import './js/app'
+import './js/scene/Main'
+import './js/scene/Levels'
+import './js/scene/Level'
+import './js/scene/Pass'
+import './js/scene/Fail'
+import './js/loader'
