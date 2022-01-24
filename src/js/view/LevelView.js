@@ -47,7 +47,7 @@ export default class LevelView extends View {
 
 	updatePosition() {
 		this.taskBar.position.set(-this.taskBar.width/2, -app.size.height/2+10)
-		this.field.position.set(-this.field.width/2, -this.field.height/2)
+		this.field.position.set(-this.field.width/2, -this.field.height/2+this.taskBar.height/2+5)
 	}
 
 	cleanParticles() {
